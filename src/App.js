@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App () {
+    // const handleMouseMove = () => {
+    //     console.log('Button was clicked!')
+    // };
+    return <div>
+        <button onClick={() =>console.log('button was clicked') }>Add Animal</button> 
+        {/* This way of writing code is more concise and clean code rather than declaring a function outside and calling it inside a function whuch is too much code */}
+    </div>;
 }
 
 export default App;
