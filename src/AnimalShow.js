@@ -16,7 +16,6 @@ const svgMap = {
     horse
 }
 
-
 function AnimalShow ({type}){
     const [clicks, setClicks] = useState(0);
     const handleClick = () => {
@@ -33,5 +32,4 @@ function AnimalShow ({type}){
         </div>
         );
 }
-
 export default AnimalShow;
