@@ -5,7 +5,7 @@ import cow from './svg/cow.svg';
 import dog from './svg/dog.svg';
 import gator from './svg/gator.svg';
 import heart from './svg/heart.svg';
-import horse from './svg/horse.svg';
+import horses from './svg/horse.svg';
 
 const svgMap = {
     bird,
@@ -13,7 +13,7 @@ const svgMap = {
     cow,
     dog,
     gator,
-    horse
+    horses
 }
 
 function AnimalShow ({type}){
